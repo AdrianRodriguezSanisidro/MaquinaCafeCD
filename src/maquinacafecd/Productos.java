@@ -38,13 +38,13 @@ public class Productos {
     public int restarAzucar(){
         return azucar;
     }
-    public String prepararCafe(){
+    public String prepararCafe(int azucar){
         return cafe;
     }
-    public String prapararTe(){
+    public String prapararTe(int azucar){
         return te;
     }
-    public String prepararChocolate(){
+    public String prepararChocolate(int azucar){
         return chocolate;
     }
 }
