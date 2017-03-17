@@ -6,7 +6,7 @@
 package maquinacafecd;
 
 /**
- *
+ *Todos los metodos de impresion
  * @author Adry
  */
 public class Display {
