@@ -41,7 +41,7 @@ public class Productos {
     public static String prepararCafe(int azucar){
         return cafe;
     }
-    public static String prapararTe(int azucar){
+    public static String prepararTe(int azucar){
         return te;
     }
     public static String prepararChocolate(int azucar){
