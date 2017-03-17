@@ -15,7 +15,7 @@ import static maquinacafecd.Productos.prepararTe;
 import static maquinacafecd.Productos.prepararChocolate;
 import static maquinacafecd.Productos.getAzucar;
 /**
- *
+ *Se elige la accion a realizar mediante el switch case
  * @author Adry
  */
 public class MaquinaCafeCD {
@@ -24,6 +24,9 @@ public class MaquinaCafeCD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /**
+         * Eleccion que realiza el usuario
+         */
         int eleccion=0;
         do{
         switch(Integer.parseInt(JOptionPane.showInputDialog("1=Sumar azucar;2=Restar azucar;3=Introducir dinero;4=Cafe;5=Te;6=Chocolate;7=Devolver dinero;0=Salir"))){
