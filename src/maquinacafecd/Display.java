@@ -10,12 +10,17 @@ package maquinacafecd;
  * @author Adry
  */
 public class Display {
+    /**
+     * Muestra el dinero que hay para usar
+     * @param dinero 
+     */
     public static void imprimirImporte(float dinero){
         
     }
-    public static void imprimirPrecio(String producto){
-        
-    }
+   /**
+    * Imprime la cantidad de azucar que se va a usar
+    * @param azucar 
+    */
     public static void imprimirCantAzucar(int azucar){
         
     }
