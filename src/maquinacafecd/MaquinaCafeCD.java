@@ -5,6 +5,15 @@
  */
 package maquinacafecd;
 
+import javax.swing.JOptionPane;
+import static maquinacafecd.Monedero.devolverDinero;
+import static maquinacafecd.Monedero.meterDinero;
+import static maquinacafecd.Productos.restarAzucar;
+import static maquinacafecd.Productos.sumarAzucar;
+import static maquinacafecd.Productos.prepararCafe;
+import static maquinacafecd.Productos.prepararTe;
+import static maquinacafecd.Productos.prepararChocolate;
+import static maquinacafecd.Productos.getAzucar;
 /**
  *
  * @author Adry
@@ -15,7 +24,26 @@ public class MaquinaCafeCD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        int eleccion=0;
+        do{
+        switch(Integer.parseInt(JOptionPane.showInputDialog("1=Sumar azucar;2=Restar azucar;3=Introducir dinero;4=Cafe;5=Te;6=Chocolate;7=Devolver dinero;0=Salir"))){
+            case 1:sumarAzucar();
+            break;
+            case 2:restarAzucar();
+            break;
+            case 3:meterDinero();
+            break;
+            case 4:prepararCafe(getAzucar());
+            break;
+            case 5:prepararTe(getAzucar());
+            break;
+            case 6:prepararChocolate(getAzucar());
+            break;
+            case 7:devolverDinero();
+            break;
+            case 0:System.exit(0);
+            break;
+        }
+    }while(eleccion<0&&eleccion>7);
+        }
 }
