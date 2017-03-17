@@ -10,15 +10,15 @@ package maquinacafecd;
  * @author Adry
  */
 public class Monedero {
-    private float dinero;
+    private static float dinero;
 
-    public float getDinero() {
+    public static float getDinero() {
         return dinero;
     }
-    public float meterDinero(){
+    public static float meterDinero(){
         return dinero;
     }
-    public float devolverDinero(){
+    public static float devolverDinero(){
         return dinero;
     }
 }
