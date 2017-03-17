@@ -10,13 +10,13 @@ package maquinacafecd;
  * @author Adry
  */
 public class Display {
-    public void imprimirImporte(float dinero){
+    public static void imprimirImporte(float dinero){
         
     }
-    public void imprimirPrecio(String producto){
+    public static void imprimirPrecio(String producto){
         
     }
-    public void imprimirCantAzucar(int azucar){
+    public static void imprimirCantAzucar(int azucar){
         
     }
 }
