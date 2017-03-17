@@ -10,41 +10,41 @@ package maquinacafecd;
  * @author Adry
  */
 public class Productos {
-    private String cafe,te,chocolate;
-    int azucar;
+    private static String cafe,te,chocolate;
+    private static int azucar;
 
-    public String getCafe() {
+    public static String getCafe() {
         return cafe;
     }
 
-    public String getTe() {
+    public static String getTe() {
         return te;
     }
 
-    public String getChocolate() {
+    public static String getChocolate() {
         return chocolate;
     }
 
-    public int getAzucar() {
+    public static int getAzucar() {
         return azucar;
     }
     
-    public void agregarAzucar(int azucar){
+    public static void agregarAzucar(int azucar){
         
     }
-    public int sumarAzucar(){
+    public static int sumarAzucar(){
         return azucar;
     }
-    public int restarAzucar(){
+    public static int restarAzucar(){
         return azucar;
     }
-    public String prepararCafe(int azucar){
+    public static String prepararCafe(int azucar){
         return cafe;
     }
-    public String prapararTe(int azucar){
+    public static String prapararTe(int azucar){
         return te;
     }
-    public String prepararChocolate(int azucar){
+    public static String prepararChocolate(int azucar){
         return chocolate;
     }
 }
